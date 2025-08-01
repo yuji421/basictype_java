@@ -14,6 +14,7 @@ public class Q09_DoubleCompare {
         System.out.print("cを入力: ");
         double c = sc.nextDouble();
 
+        //一般的にdouble型の誤差で使われる数値
         double epsilon = 1e-10;
         boolean result = Math.abs((a + b) - c) < epsilon;
         System.out.println("a + b == c ? " + result);
